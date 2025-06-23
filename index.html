@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>圖片展示首頁</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f9f9f9;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    img {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+<!-- 導覽列 -->
+<div style="background-color: #000; padding: 15px 0; text-align: center;">
+  <a href="index.html" 
+     style="color: white; text-decoration: none; margin: 0 20px; font-weight: bold; font-size: 18px;">
+     角色介紹
+  </a>
+  <a href="works.html" 
+     style="color: white; text-decoration: none; margin: 0 20px; font-weight: bold; font-size: 18px;">
+     其他作品
+  </a>
+  <a href="about.html" 
+     style="color: white; text-decoration: none; margin: 0 20px; font-weight: bold; font-size: 18px;">
+     關於我
+  </a>
+</div>
+
+  <div class="container py-4">
+
+    <!-- 輪播圖片區 -->
+    <div id="carouselExample" class="carousel slide mb-4" data-bs-ride="carousel">
+      <div class="carousel-inner rounded-3">
+        <div class="carousel-item active">
+          <img src="images/UP001.png" class="d-block w-100" alt="UP001">
+        </div>
+        <div class="carousel-item">
+          <img src="images/UP002.png" class="d-block w-100" alt="UP002">
+        </div>
+        <div class="carousel-item">
+          <img src="images/UP003.png" class="d-block w-100" alt="UP003">
+        </div>
+        <div class="carousel-item">
+          <img src="images/UP004.png" class="d-block w-100" alt="UP004">
+        </div>
+        <div class="carousel-item">
+          <img src="images/UP005.png" class="d-block w-100" alt="UP005">
+        </div>
+      </div>
+    </div>
+
+    <!-- 📷 Lily 區塊 -->
+    <div class="row align-items-center mb-5">
+      <div class="col-lg-6 mb-3 mb-lg-0">
+        <a href="lily.html">
+          <img src="images/Lily001.png" alt="Lily001" class="img-fluid rounded-3 shadow w-100">
+        </a>
+      </div>
+      <div class="col-lg-6">
+        <h3>扶禮</h3>
+        <p>活在謊言中的少女，像小狐狸一樣，渴望被關懷與理解</p>
+        <div class="text-center my-5">
+  <a href="lily.html"
+     style="background-color: #e78492; color: white; padding: 12px 28px; border-radius: 8px; text-decoration: none; font-weight: bold; display: inline-block;">
+    前往扶禮的頁面
+  </a>
+  </div>
+      </div>
+    </div>
+
+    <!-- 📷 YU 區塊 -->
+    <div class="row align-items-center mb-5">
+      <div class="col-lg-6 mb-3 mb-lg-0">
+        <a href="yu.html">
+          <img src="images/YU001.png" alt="YU001" class="img-fluid rounded-3 shadow w-100">
+        </a>
+      </div>
+      <div class="col-lg-6">
+        <h3>北御</h3>
+        <p>一名忠心耿耿的商人副手，疑似長期遭受PUA</p>
+        <div class="text-center my-5">
+  <a href="yu.html"
+     style="background-color: #130c9a; color: white; padding: 12px 28px; border-radius: 8px; text-decoration: none; font-weight: bold; display: inline-block;">
+    前往北御的頁面
+  </a>
+  </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- JS 套件 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

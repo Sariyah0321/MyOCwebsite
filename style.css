@@ -1,0 +1,27 @@
+body {
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+img {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.my-home-btn {
+  /* background-color: #6c5ce7; */
+  color: rgb(239, 147, 147);
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.my-home-btn:hover {
+  background-color: #a29bfe;
+}
